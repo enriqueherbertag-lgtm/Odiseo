@@ -93,7 +93,17 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
  Diseño CAD de esclusa giratoria  
  Validación de producción ISRU en Marte
 
-## Proyectos hermanos
+## Próximos pasos
+
+| Fase | Objetivo | Plazo estimado |
+|------|----------|----------------|
+| **1. Simulación** | Completada — delta-v 7.37 km/s, masa NEP 50.3 t |
+| **2. CAD esclusa giratoria** | Modelado 3D de la esclusa intermitente y análisis estructural | Q2 2026 |
+| **3. Desglose de masa** | Validar masa seca (41,700 kg) por subsistema | Q2 2026 |
+| **4. Optimización trayectoria** | Buscar ventana de lanzamiento con menor delta-v | Q3 2026 |
+| **5. Prototipo escala reducida** | Imprimir esclusa en 3D para pruebas mecánicas | Q4 2026 |
+
+ ## Proyectos hermanos
 
 **Goliat-Orbital** — captura y reciclaje de basura espacial  
 [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
