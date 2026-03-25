@@ -86,12 +86,12 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 
 ## Estado actual
 
- Arquitectura completa  
- Subsistemas definidos  
- Tripulación y carga definidas  
- Simulación de trayectoria (resultados publicados)  
- Diseño CAD de esclusa giratoria  
- Validación de producción ISRU en Marte
+✅ Arquitectura completa  
+✅ Subsistemas definidos  
+✅ Tripulación y carga definidas  
+✅ Simulación de trayectoria (resultados publicados)  
+🔲 Diseño CAD de esclusa giratoria  
+🔲 Validación de producción ISRU en Marte
 
 ## Próximos pasos
 
@@ -103,13 +103,17 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 | **4. Optimización trayectoria** | Buscar ventana de lanzamiento con menor delta-v | Q3 2026 |
 | **5. Prototipo escala reducida** | Imprimir esclusa en 3D para pruebas mecánicas | Q4 2026 |
 
- ## Proyectos hermanos
+## Proyectos hermanos
 
-**Goliat-Orbital** — captura y reciclaje de basura espacial  
-[Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
+- **Goliat-Orbital** — captura y reciclaje de basura espacial  
+  [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
 
-**Quantum-Flux** — enlace satelital resiliente independiente de cables submarinos  
-[Repositorio](https://github.com/enriqueherbertag-lgtm/quantum-flux)
+- **Quantum-Flux** — enlace satelital resiliente independiente de cables submarinos  
+  [Repositorio](https://github.com/enriqueherbertag-lgtm/quantum-flux)
+
+- **Goliat-Son** — aterrizador autónomo y módulo de carga y transporte (MCT)  
+  [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Son)
+
 ## Licencia
 
 Apache 2.0 con restricción de uso comercial.  
