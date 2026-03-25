@@ -1,0 +1,14 @@
+parametro,valor
+fecha_lanzamiento,2026-12-01 00:00:00.000
+fecha_llegada,2027-08-15 00:00:00.000
+tiempo_vuelo_dias,257.0
+delta_v_salida_km/s,4.361149016988442
+delta_v_llegada_km/s,3.0047689166752676
+delta_v_total_km/s,7.36591793366371
+masa_seca_kg,41700.0
+isp_ntp_s,950.0
+masa_propelente_ntp_kg,50241.0922098966
+masa_total_ntp_kg,91941.0922098966
+isp_nep_s,4000.0
+masa_propelente_nep_kg,8613.81931854115
+masa_total_nep_kg,50313.81931854115
