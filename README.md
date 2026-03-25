@@ -110,7 +110,6 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 
 **Quantum-Flux** — enlace satelital resiliente independiente de cables submarinos  
 [Repositorio](https://github.com/enriqueherbertag-lgtm/quantum-flux)
-
 ## Licencia
 
 Apache 2.0 con restricción de uso comercial.  
