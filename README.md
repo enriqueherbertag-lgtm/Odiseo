@@ -31,6 +31,23 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 | **Navegación** | Redundancia en rueda (INS, sensores estelares) |
 | **Emergencias** | Cápsulas de escape, rutas de evacuación, detección temprana, protocolos |
 
+## Simulación de Trayectoria
+
+| Parámetro | Valor |
+|-----------|-------|
+| Delta-v total | 7.37 km/s |
+| Tiempo de vuelo | 257 días |
+| Masa seca (estructura + carga) | 41,700 kg |
+
+### Opciones de propulsión
+
+| Configuración | Masa H₂ | Masa total en órbita |
+|---------------|---------|---------------------|
+| NTP (Isp 950 s) | 50,241 kg | 91,941 kg |
+| **NEP (Isp 4000 s)** | **8,614 kg** | **50,314 kg** |
+
+*Resultados de simulación Lambert con poliastro. Ventana de lanzamiento: 1 dic 2026.*
+
 ## Tripulación
 
 | Rol | Cantidad |
@@ -72,7 +89,7 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
  Arquitectura completa  
  Subsistemas definidos  
  Tripulación y carga definidas  
- Simulación de trayectoria (en desarrollo)  
+ Simulación de trayectoria (resultados publicados)  
  Diseño CAD de esclusa giratoria  
  Validación de producción ISRU en Marte
 
