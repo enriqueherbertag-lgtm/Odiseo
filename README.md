@@ -95,10 +95,11 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 
 ## Proyectos hermanos
 
-- **Goliat-Orbital** — captura y reciclaje de basura espacial  
-  [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
-- **Quantum-Flux** — enlace satelital resiliente independiente de cables submarinos  
-  [Repositorio](https://github.com/enriqueherbertag-lgtm/quantum-flux)
+**Goliat-Orbital** — captura y reciclaje de basura espacial  
+[Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
+
+**Quantum-Flux** — enlace satelital resiliente independiente de cables submarinos  
+[Repositorio](https://github.com/enriqueherbertag-lgtm/quantum-flux)
 
 ## Licencia
 
