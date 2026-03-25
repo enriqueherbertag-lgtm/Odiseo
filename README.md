@@ -105,6 +105,9 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 
 ## Proyectos hermanos
 
+- **ShieldAir-Urban / Mars** — torre de producción de oxígeno (urbana y adaptada para Marte)  
+  [ShieldAir-Urban](https://github.com/enriqueherbertag-lgtm/ShieldAir-Urban) | [ShieldAir-Mars]  (https://github.com/enriqueherbertag-lgtm/ShieldAir-Mars)
+
 - **Goliat-Orbital** — captura y reciclaje de basura espacial  
   [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
   
