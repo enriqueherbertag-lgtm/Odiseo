@@ -105,21 +105,17 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 
 ## Proyectos hermanos
 
-- **ShieldAir-Urban / Mars** — torre de producción de oxígeno (urbana y adaptada para Marte)  
-  [ShieldAir-Urban](https://github.com/enriqueherbertag-lgtm/ShieldAir-Urban) | [ShieldAir-Mars]  (https://github.com/enriqueherbertag-lgtm/ShieldAir-Mars)
-
 - **Goliat-Orbital** — captura y reciclaje de basura espacial  
   [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
-  
+
 - **Quantum-Flux** — enlace satelital resiliente independiente de cables submarinos  
   [Repositorio](https://github.com/enriqueherbertag-lgtm/quantum-flux)
 
 - **Goliat-Son** — aterrizador autónomo y módulo de carga y transporte (MCT)  
   [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Son)
 
-- **ShieldAir-Urban / Mars** — torre de producción de oxígeno (urbana y adaptada para Marte)  
-  [ShieldAir-Urban](https://github.com/enriqueherbertag-lgtm/ShieldAir-Urban) | [ShieldAir-Mars](https://github.com/enriqueherbertag-lgtm/ShieldAir-Mars)
-  
+- **ShieldAir** — torre de producción de oxígeno  
+  [Urban](https://github.com/enriqueherbertag-lgtm/ShieldAir-Urban) | [Mars](https://github.com/enriqueherbertag-lgtm/ShieldAir-Mars)
 
 ## Licencia
 
