@@ -119,11 +119,6 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 - **ShieldAir** — torre de producción de oxígeno  
   [Urban](https://github.com/enriqueherbertag-lgtm/ShieldAir-Urban) | [Mars](https://github.com/enriqueherbertag-lgtm/ShieldAir-Mars)
 
-## Licencia
-
-Apache 2.0 con restricción de uso comercial.  
-*Este es un framework base open-source. El que quiera más precisión, menor latencia o features avanzadas… que lo modifique y contribuya.*
-
 ## Autor
 
 **Enrique Aguayo H.**  
