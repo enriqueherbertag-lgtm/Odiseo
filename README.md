@@ -5,6 +5,7 @@
 <img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/71e6f841-381d-40f5-8144-5dca835c7183" />
 
 
+
 **Una nave de infraestructura para colonizar Marte. No es un cohete. Es un sistema completo.**
 
 ## Misión
