@@ -2,6 +2,9 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/63dabee3-69d9-4073-82b5-e99246d0bff9" />
+
+
 **Una nave de infraestructura para colonizar Marte. No es un cohete. Es un sistema completo.**
 
 ## Misión
