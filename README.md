@@ -1,7 +1,6 @@
 # Odiseo
 
-https://zenodo.org/records/19357917
-
+](https://zenodo.org/records/19357917)
 
 
 **Una nave de infraestructura para colonizar Marte. No es un cohete. Es un sistema completo.**
