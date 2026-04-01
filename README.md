@@ -1,8 +1,6 @@
 # Odiseo
 
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/71e6f841-381d-40f5-8144-5dca835c7183" />
 
 
 
@@ -122,6 +120,31 @@ Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y 
 
 - **ShieldAir** — torre de producción de oxígeno  
   [Urban](https://github.com/enriqueherbertag-lgtm/ShieldAir-Urban) | [Mars](https://github.com/enriqueherbertag-lgtm/ShieldAir-Mars)
+
+
+## Licencia
+
+Copyright © 2026 Enrique Aguayo. Todos los derechos reservados.
+
+Este proyecto está protegido por derechos de autor.
+
+**PERMITIDO:**
+- Uso no comercial con fines educativos o de investigación.
+- Distribución sin modificación, siempre que se mantenga esta licencia y se dé crédito al autor.
+
+**PROHIBIDO sin autorización expresa por escrito:**
+- Uso comercial (incluyendo, pero no limitado a: ofrecerlo como servicio, SaaS, suscripción, integración en productos que generen ingresos, o cualquier uso que genere beneficio económico directo o indirecto).
+- Modificación para entornos de producción.
+- Distribución de versiones modificadas sin autorización.
+
+Para licencias comerciales, soporte técnico, pilotos empresariales o consultas:
+Contacto: **eaguayo@migst.cl**
+
+Cualquier uso fuera de los términos permitidos requiere permiso previo del autor.
+
+Las consultas comerciales son bienvenidas y se responderán en un plazo máximo de 7 días hábiles.
+
+
 
 ## Autor
 
