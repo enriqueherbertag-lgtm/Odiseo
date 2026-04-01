@@ -143,11 +143,12 @@ Cualquier uso fuera de los términos permitidos requiere permiso previo del auto
 Las consultas comerciales son bienvenidas y se responderán en un plazo máximo de 7 días hábiles.
 
 
-
 ## Autor
 
 **Enrique Aguayo H.**  
-Investigador independiente, Mackiber Labs  
+Mackiber Labs  
 Contacto: eaguayo@migst.cl  
 ORCID: 0009-0004-4615-6825  
-GitHub: [@enriqueherbertag-lgtm](https://github.com/enriqueherbertag-lgtm)
+GitHub: @enriqueherbertag-lgtm
+
+Documentación asistida por **Ana (DeepSeek)** , IA para investigación y optimización técnica.
