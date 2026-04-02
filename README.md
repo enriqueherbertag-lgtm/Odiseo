@@ -1,124 +1,57 @@
-# Odiseo
+# Odiseo: Nave de infraestructura para colonizar Marte
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19357917.svg)](https://doi.org/10.5281/zenodo.19357917)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[![EN](https://img.shields.io/badge/English-version-blue.svg)](./README.en.md)
 
-**Una nave de infraestructura para colonizar Marte. No es un cohete. Es un sistema completo.**
+Llevar personas a Marte no es solo un problema de cohetes. Es un problema de infraestructura: cómo mantener viva a la tripulación durante meses, cómo protegerla de la radiación, cómo crear gravedad artificial, cómo aterrizar y establecer una base.
 
-## Misión
+Las misiones actuales se enfocan en el viaje. Odiseo se enfoca en todo lo demás.
 
-Transportar 6 personas a Marte, establecer una base operativa autosuficiente, y mantener un nodo logístico reutilizable en órbita.
+**Odiseo no es un cohete. Es un sistema completo.**
 
-## Arquitectura
+## Que es
 
-| Módulo | Función |
-|--------|---------|
-| **Odiseo (núcleo)** | Propulsión, energía, escudo radiológico. Permanece en órbita marciana como satélite y almacén orbital. |
-| **Rueda centrífuga** | Gravedad artificial durante el viaje. Autónoma, con esclusa giratoria intermitente. Se detiene en órbita. |
-| **Goliat-Son** | Aterrizador y carguero. 6 personas + 8.7 toneladas de carga. Despliega base en superficie. |
+Odiseo es una nave de infraestructura diseñada para transportar 6 personas a Marte, establecer una base operativa autosuficiente y mantener un nodo logístico reutilizable en órbita. No despega por sí sola: usa un lanzador comercial (Starship) para ponerla en órbita. Una vez allí, despliega su propia propulsión nuclear, su rueda centrífuga para gravedad artificial, su escudo radiológico activo y pasivo, y su soporte vital autónomo.
 
-## Subsistemas Clave
+## Que hace
 
-| Sistema | Solución |
-|---------|----------|
-| **Despegue** | Lanzador comercial (Starship) — Odiseo no es un cohete |
-| **Propulsión espacial** | Hidrógeno líquido + reactor nuclear (NTP/NEP) |
-| **Energía** | RTG nuclear (50 años) + baterías litio + paneles solares. Transferencia inductiva a rueda. |
-| **Gestión térmica** | Hidrógeno circulante + válvulas de no retorno + empuje térmico adicional |
-| **Escudo radiológico** | Campo magnético activo (bobinas superconductoras) para partículas cargadas + blindaje pasivo (W-V + HDPE + H₂) |
-| **Protección pasiva** | Tungsteno-vanadio exterior + capa HDPE + tanques de hidrógeno como blindaje |
-| **Gravedad artificial** | Rueda centrífuga con esclusa giratoria intermitente (sin sello rotatorio continuo) |
-| **Soporte vital** | Autónomo en rueda. Captura de gas interestelar para complementar O₂/H₂O (concepto en estudio) |
-| **Producción en Marte** | Torres ShieldAir adaptadas producen O₂, biomasa y calor usando CO₂ atmosférico (95%) + energía nuclear |
-| **Comunicaciones** | Redundancia en rueda (antenas, transceptores) |
-| **Navegación** | Redundancia en rueda (INS, sensores estelares) |
-| **Emergencias** | Cápsulas de escape, rutas de evacuación, detección temprana, protocolos |
+- **Propulsión nuclear**: hidrógeno líquido + reactor nuclear. Opciones NTP (Isp 950 s) o NEP (Isp 4000 s). La configuración NEP reduce la masa total en órbita a 50.3 toneladas.
+- **Gravedad artificial**: una rueda centrífuga que gira durante el viaje, con esclusa giratoria intermitente (sin sello rotatorio continuo). Se detiene en órbita marciana.
+- **Escudo radiológico**: campo magnético activo (bobinas superconductoras) para partículas cargadas + blindaje pasivo de tungsteno-vanadio, HDPE e hidrógeno.
+- **Soporte vital**: autónomo en la rueda. Captura de gas interestelar para complementar oxígeno y agua (concepto en estudio).
+- **Energía**: RTG nuclear de 50 años + baterías de litio + paneles solares. Transferencia inductiva a la rueda.
+- **Aterrizaje y base**: la nave transporta a Goliat-Son, el aterrizador que lleva a los 6 tripulantes y 8.7 toneladas de carga. En superficie, las torres ShieldAir-Mars producen oxígeno, biomasa y calor.
 
-## Simulación de Trayectoria
+## Para quién es
 
-| Parámetro | Valor |
-|-----------|-------|
-| Delta-v total | 7.37 km/s |
-| Tiempo de vuelo | 257 días |
-| Masa seca (estructura + carga) | 41,700 kg |
+- **Agencias espaciales**: arquitectura de referencia para misiones tripuladas a Marte.
+- **Empresas de colonización espacial**: infraestructura reutilizable para múltiples misiones.
+- **Gobiernos**: soberanía tecnológica en exploración espacial.
 
-### Opciones de propulsión
+## Ventajas principales
 
-| Configuración | Masa H₂ | Masa total en órbita |
-|---------------|---------|---------------------|
-| NTP (Isp 950 s) | 50,241 kg | 91,941 kg |
-| **NEP (Isp 4000 s)** | **8,614 kg** | **50,314 kg** |
-
-*Resultados de simulación Lambert con poliastro. Ventana de lanzamiento: 1 dic 2026.*
-
-## Tripulación
-
-| Rol | Cantidad |
-|-----|----------|
-| Ingeniero químico | 2 |
-| Ingeniero mecánico | 2 |
-| Astrofísico | 1 |
-| Médico cirujano | 1 |
-
-**Total:** 6 personas.
-
-## Capacidad de Carga (Goliat-Son)
-
-| Categoría | Peso (kg) |
-|-----------|-----------|
-| Hábitats inflables | 2,000 |
-| Paneles solares + baterías | 1,500 |
-| Torres ShieldAir (versión Marte) | 2,000 |
-| Equipos de agua + reciclaje | 500 |
-| Alimentos + semillas | 1,000 |
-| Herramientas + impresoras 3D | 1,000 |
-| Equipos científicos + rover | 500 |
-| Kit médico + emergencias | 200 |
-| **Total** | **8,700** |
-
-## Operación en Marte
-
-1. **Odiseo** frena en órbita baja. Rueda se detiene.
-2. **Goliat-Son** aterriza con tripulación y carga.
-3. **Despliegue base** (primera semana):
-   - Paneles solares → energía
-   - Hábitats inflables → presurización
-   - Torres ShieldAir → O₂, biomasa, calor
-4. **Odiseo** actúa como satélite de comunicaciones y observación.
-5. **Retorno o reabastecimiento:** Odiseo puede volver a Tierra por más equipo. Goliat-Son puede reabastecerse con combustible producido en Marte.
+- **No es un cohete**: usa lanzadores comerciales para salir de la Tierra, reduciendo costo y complejidad.
+- **Gravedad artificial**: evita los efectos de la microgravedad en la tripulación durante 257 días de viaje.
+- **Escudo radiológico activo**: protege contra tormentas solares y rayos cósmicos.
+- **Reutilizable**: Odiseo permanece en órbita marciana como satélite y almacén orbital. Puede volver a Tierra por más equipo.
+- **Integración con ShieldAir-Mars**: el oxígeno para respirar y para el combustible se produce en la superficie marciana.
 
 ## Estado actual
 
-✅ Arquitectura completa  
-✅ Subsistemas definidos  
-✅ Tripulación y carga definidas  
-✅ Simulación de trayectoria (resultados publicados)  
-🔲 Diseño CAD de esclusa giratoria  
-🔲 Validación de producción ISRU en Marte
+- Arquitectura completa definida
+- Subsistemas clave documentados
+- Tripulación y carga definidas
+- Simulación de trayectoria completada (delta-v 7.37 km/s, 257 días)
+- CAD de esclusa giratoria (pendiente)
+- Validación de producción ISRU en Marte (pendiente)
 
-## Próximos pasos
+## Proyectos relacionados
 
-| Fase | Objetivo | Plazo estimado |
-|------|----------|----------------|
-| **1. Simulación** | Completada — delta-v 7.37 km/s, masa NEP 50.3 t |
-| **2. CAD esclusa giratoria** | Modelado 3D de la esclusa intermitente y análisis estructural | Q2 2026 |
-| **3. Desglose de masa** | Validar masa seca (41,700 kg) por subsistema | Q2 2026 |
-| **4. Optimización trayectoria** | Buscar ventana de lanzamiento con menor delta-v | Q3 2026 |
-| **5. Prototipo escala reducida** | Imprimir esclusa en 3D para pruebas mecánicas | Q4 2026 |
-
-## Proyectos hermanos
-
-- **Goliat-Orbital** — captura y reciclaje de basura espacial  
-  [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Orbital)
-
-- **Quantum-Flux** — enlace satelital resiliente independiente de cables submarinos  
-  [Repositorio](https://github.com/enriqueherbertag-lgtm/quantum-flux)
-
-- **Goliat-Son** — aterrizador autónomo y módulo de carga y transporte (MCT)  
-  [Repositorio](https://github.com/enriqueherbertag-lgtm/Goliat-Son)
-
-- **ShieldAir** — torre de producción de oxígeno  
-  [Urban](https://github.com/enriqueherbertag-lgtm/ShieldAir-Urban) | [Mars](https://github.com/enriqueherbertag-lgtm/ShieldAir-Mars)
-
+- Goliat-Son — aterrizador autónomo y módulo de carga
+- ShieldAir-Mars — producción de oxígeno en Marte
+- Quantum-Flux — comunicaciones resilientes
+- Goliat-Orbital — reciclaje de basura espacial
 
 ## Licencia
 
@@ -126,29 +59,28 @@ Copyright © 2026 Enrique Aguayo. Todos los derechos reservados.
 
 Este proyecto está protegido por derechos de autor.
 
-**PERMITIDO:**
+PERMITIDO:
 - Uso no comercial con fines educativos o de investigación.
 - Distribución sin modificación, siempre que se mantenga esta licencia y se dé crédito al autor.
 
-**PROHIBIDO sin autorización expresa por escrito:**
+PROHIBIDO sin autorización expresa por escrito:
 - Uso comercial (incluyendo, pero no limitado a: ofrecerlo como servicio, SaaS, suscripción, integración en productos que generen ingresos, o cualquier uso que genere beneficio económico directo o indirecto).
 - Modificación para entornos de producción.
 - Distribución de versiones modificadas sin autorización.
 
 Para licencias comerciales, soporte técnico, pilotos empresariales o consultas:
-Contacto: **eaguayo@migst.cl**
+Contacto: eaguayo@migst.cl
 
 Cualquier uso fuera de los términos permitidos requiere permiso previo del autor.
 
 Las consultas comerciales son bienvenidas y se responderán en un plazo máximo de 7 días hábiles.
 
-
 ## Autor
 
-**Enrique Aguayo H.**  
-Mackiber Labs  
-Contacto: eaguayo@migst.cl  
-ORCID: 0009-0004-4615-6825  
+Enrique Aguayo H.
+Mackiber Labs
+Contacto: eaguayo@migst.cl
+ORCID: 0009-0004-4615-6825
 GitHub: @enriqueherbertag-lgtm
 
-Documentación asistida por **Ana (DeepSeek)** , IA para investigación y optimización técnica.
+Documentación asistida por Ana (DeepSeek), IA para investigación y optimización técnica.
